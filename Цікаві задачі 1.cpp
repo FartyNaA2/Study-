@@ -24,5 +24,6 @@ int main() {
     for (const auto& triple : result) {
         cout << get<0>(triple) << " " << get<1>(triple) << " " << get<2>(triple) << endl;
     }
-
+ }
     return 0;
+ }
